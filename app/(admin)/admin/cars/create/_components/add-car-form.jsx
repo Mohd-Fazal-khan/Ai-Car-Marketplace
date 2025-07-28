@@ -136,6 +136,7 @@ export const AddCarForm = () => {
   useEffect(() => {
     if (processImageResult?.success) {
       const carDetails = processImageResult.data;
+      
 
       // Update form with AI results
       setValue("make", carDetails.make);
