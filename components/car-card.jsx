@@ -128,13 +128,20 @@ export const CarCard = ({ car }) => {
 
         <div className="flex justify-between">
           <Button
-            className="flex-1"
-            onClick={() => {
-              router.push(`/cars/${car.id}`);
-            }}
-          >
-            View Car
-          </Button>
+  className="flex-1"
+  onClick={() => {
+    if (!isSignedIn) {
+      toast.error("Please login or signup first");
+      router.push("/sign-in");
+      return;
+    }
+
+    router.push(`/cars/${car.id}`);
+  }}
+>
+  View Car
+</Button>
+
         </div>
       </CardContent>
     </Card>
