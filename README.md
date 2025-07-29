@@ -10,6 +10,13 @@ Vehiql is a full-stack AI-powered car marketplace built with Next.js, Supabase, 
 <img width="1315" height="628" alt="Screenshot (131)" src="https://github.com/user-attachments/assets/92a04e76-2544-4a9c-8c94-01634ba25918" />
 <img width="1487" height="712" alt="Screenshot (132)" src="https://github.com/user-attachments/assets/d92e0efb-ee12-41e3-b2a1-a957a6483280" />
 
+---
+
+## Live Url
+- https://ai-car-marketplace-two.vercel.app/
+
+---
+
 
 
 ## Features
